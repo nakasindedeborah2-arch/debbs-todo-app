@@ -48,6 +48,14 @@ To do list/
 - (Future: React, Node.js, Firebase, or SQL)
 
 ## 📸 Screenshots
+### Dashboard
+![Dashboard](Dashboard.png)
+
+### Sign In Page
+![Sign In](Signin.png)
+
+### Sign Up Page
+![Sign Up](Signup.png)
 
 
 ## 💡 Motivation
