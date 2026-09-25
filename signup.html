@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="reg1">
+            <img class="im1" src="images/man1.png" alt="image of a man holding papers">
+            <div class="sign">
+                <h2 class="h2">Sign Up</h2>
+                <div class="input-box">
+                    <i class="fa-solid fa-user-pen"></i>
+                    <label for="firstname" style="width: fit-content;"></label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter First Name">
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-user-pen"></i>
+                    <label for="lastname" style="width: fit-content;"></label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name">
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-user"></i>
+                    <label for="username" style="width: fit-content;"></label>
+                    <input type="text" id="username" name="username" placeholder="Enter Username">
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email">
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password">
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <label for="confirm"></label>
+                    <input type="password" id="confirm" name="confirm" placeholder="Confirm Password">
+                </div>
+                <div>
+                    <label for="agree" class="agree">
+                        <input type="checkbox" id="agree" name="agree">
+                        <span>I agree to all terms</span>
+                    </label>
+                </div>
+                <br>
+                <div class="reg" onclick="window.location.href='signin.html'">Register</div>
+                <br>
+                <p class="signin">Already have an account? <a class="sin">Sign In</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body class="dash">
+    <div class="container">
+        <div class="header">
+
+            <!-- LEFT SIDE-->
+            <div class="left">
+                <h2 style="padding-left: 80px; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;">
+                    <span class="dsh">Dash</span>board
+                </h2>
+            </div>
+
+            <!--CENTER-->
+            <div class="center">
+                <input style="box-shadow: 0px 8px 20px rgb(0, 0, 0, 0.10); color: rgb(209, 206, 206);" class="srch"
+                    placeholder="Search your tasks here...">
+                <span class="sach" style="cursor: pointer;"><i class="fa fa-search" style="color: white;"></i></span>
+            </div>
+
+            <!--RIGHT SIDE-->
+            <div class="right">
+                <span class="bell-icon" style="cursor: pointer;"><i class="fa fa-bell"></i></span>
+                <span class="calender-icon" style="cursor: pointer;"><i class="fa fa-calendar"></i></span>
+                <span class="dayte">
+                    <a>Tuesday</a>
+                    <a style="color:#1E90FF;">20/06/2023</a>
+                </span>
+            </div>
+
+        </div>
+        <div class="everything">
+            <!--THE SIDE BAR-->
+            <div style="display: flex; flex-direction: column;">
+                <div class="sidebar">
+                    <div>
+                        <img src="images/cutie.avif" class="round-image">
+                    </div>
+                    <div class="info">
+                        <span>
+                            <h3>Peculia Penie</h3>
+                            <p>peculiapenie@gmail.com</p>
+                        </span>
+                        <!--BARS-->
+                        <div class="bars">
+                            <div class="wytbar" style="height: 50px;">
+                                <img src="images/Vector.png" class="dash-icons">
+                                <h3>Dashboard</h3>
+                            </div>
+                            <div class="orange-bar">
+                                <img src="images/exclamation.png" class="dash-icons"
+                                    style="height: 20px; width: 7.75px; margin-left: 2px;">
+                                <h3>Vital Task</h3>
+                            </div>
+                            <div class="orange-bar" style="margin-left: 2px;">
+                                <img src="images/my task.png" class="dash-icons" style="height: 20px; width: 18px;">
+                                <h3>My Task</h3>
+                            </div>
+                            <div class="orange-bar" style="margin-left: 2px;">
+                                <img src="images/list.png" class="dash-icons" style="height: 24px; width: 24px;">
+                                <h3 style="margin-left: -8px;">Task Categories</h3>
+                            </div>
+                            <div class="orange-bar" style="margin-left: 2px;">
+                                <img src="images/settings.png" class="dash-icons" style="height: 24px; width: 24px;">
+                                <h3 style="margin-left: -8px;">Settings</h3>
+                            </div>
+                            <div class="orange-bar" style="margin-left: 2px;">
+                                <img src="images/question.png" class="dash-icons" style="height: 24px; width: 24px;">
+                                <h3 style="margin-left: -8px;">Help</h3>
+                            </div>
+                            <div class="orange-bar"
+                                style="font: inter; font-size: 16px; font-weight: 500; margin-left: 2px; margin-top: 90px;">
+                                <img src="images/logoff.png" class="dash-icons" style="height: 24px; width: 24px;">
+                                <!--<h3 style="margin-left: -8px;">Logout</h3>-->
+                                <a href="signin.html" style="margin-left: -8px; text-decoration: none; color: inherit;">
+                                    <h3>Logout</h3>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--THE WELCOME FRAME-->
+            <div class="welcome">
+                <div class="welcome1">
+                    <h2 style="font-size: xx-large; font-weight: 450; font-family: Arial, Helvetica, sans-serif;">
+                        Welcome back, Penie </h2>
+                    <div class="hand">
+                        <img src="images/hand wave.png" style="height: 30px; width: 30px;">
+                    </div>
+                    <div class="imejz">
+                        <img src="images/SearchICon.png">
+                        <img src="images/SearchICon (1).png">
+                        <img src="images/SearchICon (2).png">
+                        <img src="images/SearchICon (3).png">
+                        <img src="images/Group 39.png">
+                        <img src="images/Default.png" style="margin-left: 60px;">
+
+                    </div>
+                </div>
+                <!--THE BIG CONTAINER FOR CARDS-->
+                <div class="bigcontainer">
+                    <div class="groupparent">
+                        <div class="group1">
+                            <div class="grtodo">
+                                <img src="images/Vector (1).png">
+                                <div style="padding-top: 26px; margin-left: -2px;">
+                                    <img src="images/clock.png">
+                                </div>
+                                <p style="color: #FF6767; font-weight: 500;">To-Do</p>
+                                <p style="margin-left: 250px;"><span style="color: #FF6767; font-weight: 500;">+</span>
+                                    <span style="color: #A1A3AB;">Add Task</span>
+                                </p>
+                            </div>
+                            <div class="todaygr" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">
+                                <p>20 June <span style="color: #A1A3AB;">• Today</span></p>
+                            </div>
+                            <!--THE CARDS-->
+                            <div class="allcards">
+                                <!--THE FIRST CARD FOR THE BIRTHDAY-->
+                                <div class="birthday">
+                                    <div style="display: flex;">
+                                        <div style="height: 12px; width: 12px;">
+                                            <img src="images/Redcircle.png">
+                                        </div>
+                                        <div style="width: 280px; margin-left: 10px; width: 250px;">
+                                            <h4
+                                                style=" font-size: 16px; align-items: center; align-items: center; height: 30px; margin-top: 0px;">
+                                                Attend Rue's Birthday Party</h4>
+                                            <p style="color: #A1A3AB; font-size: 14px; margin-top: -15px;">Buy gifts on
+                                                the way and pick up cake from the bakery. (6 PM Fresh Elements).....</p>
+                                            <p style="font-size: 11px; margin-top: 25px;">Priority: <span
+                                                    style="color: #1E90FF;">Moderate</span> <span
+                                                    style="float: right; margin-right: 20px;">Status: <span
+                                                        style="color: #FF6767;">Not Started</span></span></p>
+                                        </div>
+                                        <div
+                                            style="display: flex; flex-direction: column; width:108px; height: 100px; margin-top: 10px;">
+                                            <img src="images/Rectangle 10.png"
+                                                style="height: 75px; width: 75px; margin-left: 28px;">
+                                            <p style="color: #A1A3AB; font-size: 11px;">Created on: 02/05/2030</p>
+                                        </div>
+                                        <div
+                                            style="height: 5px; width: 7px; margin-top: -10px; margin-left: -5px; margin-right: 5px;">
+                                            <img src="images/MENU.png">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--THE SECOND CARD FOR TRAVEL-->
+                                <div class="travel">
+                                    <div style="display: flex;">
+                                        <div style="height: 12px; width: 12px;">
+                                            <img src="images/Vectorblue.png">
+                                        </div>
+                                        <div style="width: 280px; margin-left: 10px; width: 250px;">
+                                            <h4
+                                                style=" font-size: 16px; align-items: center; align-items: center; height: 30px; margin-top: 0px;">
+                                                Landing Page Design for Travel</h4>
+                                            <p style="color: #A1A3AB; font-size: 14px; margin-top: -15px;">Get the work
+                                                done by EOD before leaving. (4 PM Meeting Room).....</p>
+                                            <p style="font-size: 11px; margin-top: 25px;">Priority: <span
+                                                    style="color: #1E90FF;">Moderate</span> <span
+                                                    style="float: right; margin-right: 20px;">Status: <span
+                                                        style="color: blue;">In Progress</span></span></p>
+                                        </div>
+                                        <div
+                                            style="display: flex; flex-direction: column; width:108px; height: 100px; margin-top: 10px;">
+                                            <img src="images/Laptop.png"
+                                                style="height: 75px; width: 75px; margin-left: 28px;">
+                                            <p style="color: #A1A3AB; font-size: 11px;">Created on: 02/05/2030</p>
+                                        </div>
+                                        <div
+                                            style="height: 5px; width: 7px; margin-top: -10px; margin-left: -5px; margin-right: 5px;">
+                                            <img src="images/MENU.png">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="line"></div>
+                                <!--THE THRID CARD FOR FINAL PRODUCT-->
+                                <div class="finalproduct">
+                                    <div style="display: flex;">
+                                        <div style="height: 12px; width: 12px;">
+                                            <img src="images/Vectorblue.png">
+                                        </div>
+                                        <div style="width: 280px; margin-left: 10px; width: 250px;">
+                                            <h4
+                                                style=" font-size: 16px; align-items: center; align-items: center; height: 30px; margin-top: 0px;">
+                                                Presentation on the final Product</h4>
+                                            <p style="color: #A1A3AB; font-size: 14px; margin-top: -15px;">Make sure
+                                                everything functions well. Prepare the team, get documents ready...</p>
+                                            <p style="font-size: 11px; margin-top: 25px;">Priority: <span
+                                                    style="color: #1E90FF;">Moderate</span> <span
+                                                    style="float: right; margin-right: 20px;">Status: <span
+                                                        style="color: blue;">In Progress</span></span></p>
+                                        </div>
+                                        <div
+                                            style="display: flex; flex-direction: column; width:108px; height: 100px; margin-top: 10px;">
+                                            <img src="images/Meeting.png"
+                                                style="height: 75px; width: 75px; margin-left: 28px;">
+                                            <p style="color: #A1A3AB; font-size: 11px;">Created on: 01/05/2030</p>
+                                        </div>
+                                        <div
+                                            style="height: 5px; width: 7px; margin-top: -10px; margin-left: -5px; margin-right: 5px;">
+                                            <img src="images/MENU.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group2">
+                            <div class="uppercard">
+                                <div class="taskstatus">
+                                    <img src="images/Vector (1).png">
+                                    <div style="padding-top: 26px; margin-left: -2px;">
+                                        <img src="images/Tick.png">
+                                    </div>
+                                    <p style="color: #FF6767; font-weight: 500;">Task Status</p>
+                                    </p>
+                                </div>
+                                <div>
+                                    <!--CHAT-->
+                                    <div class="chat">
+                                        <div class="taskstatus-row">
+                                            <div class="status-card">
+                                                <div class="progress-circle" data-progress="84" data-color="#4caf50">
+                                                </div>
+                                                <div class="status-label">
+                                                    <span>
+                                                        <div class="status-dot"></div>
+                                                        Completed
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                            <div class="status-card">
+
+                                                <div class="progress-circle" data-progress="46" data-color="#0225FF">
+                                                </div>
+
+                                                <span class="status-label">
+                                                    <div class="status-dot2"></div>
+                                                    In Progress
+                                                </span>
+                                            </div>
+
+                                            <div class="status-card">
+
+                                                <div class="progress-circle" data-progress="13" data-color="#f44336">
+                                                </div>
+
+                                                <span class="status-label">
+                                                    <div class="status-dot3"></div>
+                                                    Not Started
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--CHAT-->
+                                </div>
+                            </div>
+                            <div class="lowercard">
+                                <div class="completed">
+                                    <img src="images/donee.png" style="margin-left: 5px;">
+                                    <div style="padding-top: 26px; margin-left: -16px; margin-top: -23px;">
+                                        <img src="images/Tick.png">
+                                    </div>
+                                    <p style="color: #FF6767; font-weight: 500; margin-left: 15px;">Completed Task</p>
+                                    </p>
+                                </div>
+                                <div class="twocards">
+                                    <div class="firstcard">
+                                        <div class="circle12"></div>
+                                        <div class="middle">
+                                            <div
+                                                style="font-size: 15px; width: 150px; height: 30px; margin-top: -25px;">
+                                                <h4>Walk the dog</h4>
+                                            </div>
+                                            <div style="font-size: 13px; color: #A1A3AB;">
+                                                <p>Take Jerry to the park and bring his treats too.</p>
+                                            </div>
+                                            <div style="font-size: 11px; margin-top: -15px;">
+                                                <p>Status: <span style="color: green;">Completed</span></p>
+                                            </div>
+                                            <div style="color: #A1A3AB; font-size: 11px; margin-top: -15px;">
+                                                <p>Completed 2 days ago</p>
+                                            </div>
+                                        </div>
+                                        <div class="deeright">
+                                            <div
+                                                style="height: 5px; width: 7px; margin-top: -10px; margin-left: 75px; margin-right: 5px;">
+                                                <img src="images/MENU.png">
+                                            </div>
+                                            <div style="margin-top: 20px; margin-left: 20px;">
+                                                <img src="images/dog.png" style="height: 70px; width: 70px;">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="secondcard">
+                                        <div class="circle12"></div>
+                                        <div class="middle">
+                                            <h4
+                                                style=" font-size: 15px; align-items: center; align-items: center; height: 30px; margin-top: 0px;">
+                                                Conduct Meeting</h4>
+                                            <p style="color: #A1A3AB; font-size: 13px; margin-top: -15px;">Meet with the
+                                                client and finalize requirements.</p>
+                                            <div style="font-size: 11px; margin-top: -15px;">
+                                                <p>Status: <span style="color: green;">Completed</span></p>
+                                            </div>
+                                            <div style="color: #A1A3AB; font-size: 11px; margin-top: -15px;">
+                                                <p>Completed 2 days ago</p>
+                                            </div>
+                                        </div>
+                                        <div class="deeright">
+                                            <div
+                                                style="height: 5px; width: 7px; margin-top: -10px; margin-left: 75px; margin-right: 5px;">
+                                                <img src="images/MENU.png">
+                                            </div>
+                                            <div style="margin-top: 20px; margin-left: 20px;">
+                                                <img src="images/Meetings.png" style="height: 70px; width: 70px;">
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.progress-circle').forEach(circle => {
+            const value = circle.dataset.progress;
+            const color = circle.dataset.color;
+
+            const radius = 30; // fits 80x80
+            const circumference = 2 * Math.PI * radius;
+
+            circle.innerHTML = `
+        <svg>
+            <circle cx="40" cy="40" r="${radius}" stroke="#e0e0e0"></circle>
+            <circle cx="40" cy="40" r="${radius}" stroke="${color}"
+                stroke-dasharray="${circumference}"
+                stroke-dashoffset="${circumference - (value / 100) * circumference}">
+            </circle>
+
+            <text x="40" y="45" text-anchor="middle" font-size="16" fill="black" font-weight="light">
+                ${value}%
+            </text>
+        </svg>
+    `;
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
