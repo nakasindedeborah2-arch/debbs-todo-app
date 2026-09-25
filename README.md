@@ -68,6 +68,9 @@ This project is part of my learning journey in web development and will grow as 
 
 ## 📬 Contact
 If you want to connect or collaborate, feel free to reach out!
+- LinkedIn: https://www.linkedin.com/in/deborah-nakasinde/en/
+- Email: nakasindedeborah2@gmail.com
+
 
 
 
