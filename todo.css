@@ -170,6 +170,10 @@ body {
 .dsh{
     color: #FF6767;
 }
+.center {
+    margin-left: 40px;
+    display: flex;
+}
 
 .srch {
     align-items: center;
@@ -192,10 +196,10 @@ body {
     font-size: 15px;
     border-radius: 13px;
     padding-bottom: 13px;
-    margin-left: -40px;
+    margin-left: -42px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 9px;
+    padding-top: 7px;
 }
 
 .bell-icon{
@@ -240,10 +244,6 @@ body {
     line-height: 1;
     margin-left: 20px;
     margin-right: 10px;
-}
-
-.center {
-    margin-left: 40px;
 }
 
 .sidebar{
@@ -366,11 +366,39 @@ body {
     margin-left: 20px;
 }
 .imejz{
-    margin-left: 200px;
+    margin-left: 180px;
     display: flex;
     flex-direction: row;
     gap: 3px;  
 }
+/* INVITE*/
+.invite-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 1px solid #FF6767; /* soft red outline */
+  background-color: transparent;
+  color: #FF6767;
+  border-radius: 10px; /* rounded corners */
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-right: 10px;
+}
+
+.invite-btn i,
+.invite-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.invite-btn:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+/*******/
+
 .bigcontainer{
     background-color: white;
     border: 1px;
@@ -615,6 +643,18 @@ body {
   width: 12px;
   height: 12px;
   border: 2px solid #4CAF50; /* green ring */
+  border-radius: 50%;
+}
+.circle123{
+  width: 12px;
+  height: 12px;
+  border: 2px solid #FF6767; /* red ring */
+  border-radius: 50%;
+}
+.circle1234{
+  width: 12px;
+  height: 12px;
+  border: 2px solid #0225FF; /* blue ring */
   border-radius: 50%;
 }
 .middle{
